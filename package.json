@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Demo home page for a fictional company that offers tours in nature.",
   "main": "index.html",
-  "scripts": {},
+  "scripts": {
+    "compile:sass": "sass scss/main.scss css/main.css -w"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dawidlehai/natours.git"
