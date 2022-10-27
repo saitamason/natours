@@ -102,7 +102,7 @@ body {
 .heading-primary {
   color: #fff;
   text-transform: uppercase;
-  text-shadow: 0 1px 2px #00000033;
+  text-shadow: 0 0.1rem 0.2rem #00000033;
   backface-visibility: hidden;
 }
 
@@ -110,18 +110,18 @@ body {
   display: block;
   font-size: 6rem;
   font-weight: 400;
-  letter-spacing: 35px;
-  margin-right: -35px;
-  animation: moveInRight 1s ease-out;
+  letter-spacing: 3.5rem;
+  margin-right: -3.5rem;
+  animation: moveInRight 0.6s ease-out;
 }
 
 .heading-primary--sub {
   display: block;
   font-size: 2rem;
   font-weight: 700;
-  letter-spacing: 17.4px;
-  margin-right: -17.4px;
-  animation: moveInLeft 1s ease-out;
+  letter-spacing: 1.7rem;
+  margin-right: -1.7rem;
+  animation: moveInLeft 0.6s ease-out;
 }
 
 .btn:link,
@@ -174,5 +174,5 @@ body {
 }
 
 .btn--animated {
-  animation: moveInBottom 0.5s ease-out 0.75s backwards;
+  animation: moveInBottom 0.5s ease-out 0.5s backwards;
 }
