@@ -91,7 +91,7 @@ body {
   height: 3.5rem;
 }
 
-.heading-primary-container {
+.header__heading-container {
   position: absolute;
   top: 45%;
   left: 50%;
@@ -106,7 +106,7 @@ body {
   backface-visibility: hidden;
 }
 
-.heading-primary__main {
+.heading-primary--main {
   display: block;
   font-size: 6rem;
   font-weight: 400;
@@ -115,7 +115,7 @@ body {
   animation: moveInRight 1s ease-out;
 }
 
-.heading-primary__sub {
+.heading-primary--sub {
   display: block;
   font-size: 2rem;
   font-weight: 700;
