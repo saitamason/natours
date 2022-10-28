@@ -3,7 +3,7 @@ body {
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 1.7;
-  color: $grey-dark;
+  color: $grey-dark-1;
 }
 
 .heading-primary {
@@ -47,6 +47,7 @@ body {
   font-size: 1.6rem;
   font-weight: 700;
   text-transform: uppercase;
+  backface-visibility: hidden;
 }
 
 .paragraph {
