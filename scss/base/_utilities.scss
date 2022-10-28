@@ -1,7 +1,23 @@
-.u-center-text {
+.center-text {
   text-align: center;
 }
 
-.u-margin-bottom-8 {
+.margin-top-medium {
+  margin-top: 6rem;
+}
+
+.margin-bottom-big {
   margin-bottom: 8rem;
+}
+
+.margin-bottom-small {
+  margin-bottom: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  max-width: 114rem;
+  margin: 0 auto;
 }
