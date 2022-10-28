@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+.margin-top-huge {
+  margin-top: 10rem;
+}
+
+.margin-top-big {
+  margin-top: 8rem;
+}
+
 .margin-top-medium {
   margin-top: 6rem;
 }
@@ -19,6 +27,12 @@
   gap: 6rem;
   max-width: 114rem;
   margin: 0 auto;
+}
+
+.col-1 {
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
 }
 
 .col-2 {
