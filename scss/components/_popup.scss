@@ -24,16 +24,28 @@
     opacity: 0;
     transform: scale(0.5);
     transition: all 0.5s 0.2s;
+
+    @include respond(tab-port) {
+      width: 100%;
+    }
   }
 
   &__left {
     width: 33%;
+
+    @include respond(tab-port) {
+      display: none;
+    }
   }
 
   &__right {
     width: 67%;
     align-self: center;
     padding: 6rem;
+
+    @include respond(tab-port) {
+      width: 100%;
+    }
   }
 
   &__img {
@@ -49,6 +61,10 @@
     column-rule: 1px solid $grey-light-2;
     hyphens: auto;
     text-align: justify;
+
+    @include respond(tab-port) {
+      column-count: 1;
+    }
   }
 
   &:target {

@@ -3,6 +3,10 @@
   padding: 10rem 0;
   font-size: 1.4rem;
 
+  @include respond(tab-port) {
+    padding: 8rem 0;
+  }
+
   &__logo-box {
     text-align: center;
     margin-bottom: 8rem;
@@ -17,6 +21,10 @@
     border-top: 1px solid $grey-dark-1;
     padding-top: 2rem;
     justify-self: left;
+
+    @include respond(tab-port) {
+      justify-self: center;
+    }
   }
 
   &__list {
@@ -51,5 +59,9 @@
     border-top: 1px solid $grey-dark-1;
     padding-top: 2rem;
     justify-self: right;
+
+    @include respond(tab-port) {
+      justify-self: center;
+    }
   }
 }

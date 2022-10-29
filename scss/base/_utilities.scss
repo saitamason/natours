@@ -20,10 +20,18 @@
 
 .margin-bottom-big {
   margin-bottom: 8rem !important;
+
+  @include respond(tab-port) {
+    margin-bottom: 5rem !important;
+  }
 }
 
 .margin-bottom-medium {
   margin-bottom: 6rem !important;
+
+  @include respond(tab-port) {
+    margin-bottom: 3rem !important;
+  }
 }
 
 .margin-bottom-small {
@@ -35,6 +43,11 @@
   gap: 6rem;
   max-width: 114rem;
   margin: 0 auto;
+
+  @include respond(tab-port) {
+    max-width: 50rem;
+    padding: 0 3rem;
+  }
 }
 
 .col-1 {
@@ -54,4 +67,13 @@
 
 .col-4 {
   grid-template-columns: repeat(4, 1fr);
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4 {
+  @include respond(tab-port) {
+    grid-template-columns: 1fr;
+  }
 }
