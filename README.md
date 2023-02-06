@@ -7,7 +7,7 @@
 [<img src="natours-screenshot-04.webp" alt="Screenshot #2 of the Natours website" width="412px">](https://dawidlehai-natours.netlify.app/ 'Live preview')
 
 ## 🛠️ Tools and technologies
-`Sass` `SCSS` `HTML` `JavaScript` `VS Code`
+`Sass` `SCSS` `CSS` `HTML` `JavaScript` `VS Code`
 
 By preparing this project I learned some **advanced CSS and Sass** (with SCSS syntax).
 
