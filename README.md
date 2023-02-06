@@ -3,7 +3,8 @@
 **Demo home page for a fictional company that offers tours in nature.**
 
 ## 💻 Screenshot
-[<img src="natours-screenshot.webp" alt="Screenshot of the Natours website" width="480px">](https://dawidlehai-natours.netlify.app/ 'Live preview')
+[<img src="natours-screenshot-01.webp" alt="Screenshot #1 of the Natours website" width="412px">](https://dawidlehai-natours.netlify.app/ 'Live preview')
+[<img src="natours-screenshot-04.webp" alt="Screenshot #2 of the Natours website" width="412px">](https://dawidlehai-natours.netlify.app/ 'Live preview')
 
 ## 🛠️ Tools and technologies
 `Sass` `SCSS` `HTML` `JavaScript` `VS Code`
